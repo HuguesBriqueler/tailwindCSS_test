@@ -13,7 +13,7 @@ function Welcome() {
   ]
 
   return (
-      <div className="bg-gray-300 text-center w-1/3 mx-auto mb-4 flex-grow">
+      <div className="default-page bg-yellow-200">
           <h1>Hugues Briqueler</h1>
           <p>
             <ul>
