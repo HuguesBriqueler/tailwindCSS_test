@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="w-1/3 mx-auto mt-4">
-      <ul className="flex justify-between">
+    <nav className="relative">
+      <ul className="top-0 w-1/3 mx-auto flex">
         <li className="default-tab bg-yellow-200 border-yellow-300">
           <Link to="/">Welcome</Link>
         </li>
